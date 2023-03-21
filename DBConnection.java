@@ -8,7 +8,7 @@ private DBConnection() {} static
 try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
 	con=DriverManager.getConnection
-			("jdbc:mysql://database-1.ca6uzu9lxs6t.ap-south-1.rds.amazonaws.com:3306/score","admin","12345678");
+			("jdbc:mysql://ip-183-16-7-49.ap-south-1.compute.internal:3306/score","admin","12345678");
 	}catch(Exception e) 
 	{e.printStackTrace();}
 	}//end of block
